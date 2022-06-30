@@ -6,7 +6,6 @@ CREATE TABLE IF NOT EXISTS public.materiais
     unidade_medida character varying(20) COLLATE pg_catalog."default" NOT NULL,
     nome character varying(200) COLLATE pg_catalog."default" NOT NULL,
     quantidade_estoque integer NOT NULL,
-    valor character varying(50) COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT materiais_pkey PRIMARY KEY (id)
 );
 
